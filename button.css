@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  position: relative;
+  width: 80px;
+  height: 40px;
+  border: 4px solid #888888;
+  outline: none;
+  background-color: #333;
+  border-radius: 20px;
+  -webkit-box-shadow: -6px -20px 35px #0a0a0a, -6px -10px 15px #0a0a0a, -20px 0px 30px #0a0a0a, 6px 20px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: -6px -20px 35px #0a0a0a, -6px -10px 15px #0a0a0a, -20px 0px 30px #0a0a0a, 6px 20px 25px rgba(0, 0, 0, 0.2);
+  -webkit-transition: .13s ease-in-out;
+  transition: .13s ease-in-out;
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-box-shadow: grey;
+          box-shadow: grey;
+}
+
+button:active .button__content {
+  -webkit-box-shadow: grey;
+          box-shadow: grey;
+}
+
+button:active .button__content .button__text, button:active .button__content .button__icon {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+/*# sourceMappingURL=button.css.map */

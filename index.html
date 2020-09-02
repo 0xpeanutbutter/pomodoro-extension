@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
     <script defer src="script.js"></script>
 </head>
 <body>
-    <div id="pomodoro">
-        <div id="contain">
+    <div id="pomodoro-app">
+        <div id="container">
             <div id="timer">
                 <div id="time">
-                    <span id="min"></span>
-                    <span id="colon"></span>
-                    <span id="sec"></span>
+                    <span id="minutes">25</span>
+                    <span id="colon">:</span>
+                    <span id="seconds">00</span>
                 </div>
-                <div id="fill"></div>
+                <div id="filler"></div>
+            </div> 
+            <div>
+                <ul>
+                    <li><button id="work">Work</button></li>
+                    <li><button id="shortBreak">Short Break</button></li>
+                    <li><button id="longBreak">Long Break</button></li>
+                    <li><button id="stop">Stop</button></li>     
+                </ul>
             </div>
-
-            <div id="buttons">
-                <button id="work">work</button>
-                <button id="short-break">short Break</button>
-                <button id="long-break">Long Break</button>
-                <button id="stop">Stop</button>
-            </div>
-
         </div>
-
     </div>
 </body>
 </html>
