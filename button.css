@@ -6,7 +6,10 @@
 }
 
 button {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
   position: relative;
+  padding: 0;
   width: 80px;
   height: 40px;
   border: 4px solid #888888;
@@ -21,13 +24,13 @@ button {
 }
 
 button:active {
-  -webkit-box-shadow: grey;
-          box-shadow: grey;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 button:active .button__content {
-  -webkit-box-shadow: grey;
-          box-shadow: grey;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 button:active .button__content .button__text, button:active .button__content .button__icon {
